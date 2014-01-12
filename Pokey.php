@@ -2,6 +2,8 @@
 
 namespace Minion\Plugins;
 
+require 'vendor/autoload.php';
+
 $Pokey = new \Minion\Plugin(
     'Pokey',
     'Pokey for minions.',
