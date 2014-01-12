@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "59a0e737ab26b6f5bda1f40081c244d1",
+    "packages": [
+        {
+            "name": "rfreebern/pokey-api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rfreebern/pokey-api.git",
+                "reference": "607d81219bb8d3fae4871812a72a8f324ca11d54"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rfreebern/pokey-api/zipball/607d81219bb8d3fae4871812a72a8f324ca11d54",
+                "reference": "607d81219bb8d3fae4871812a72a8f324ca11d54",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Pokey": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "CC0"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan Freebern",
+                    "email": "ryan@freebern.org",
+                    "homepage": "http://rnf.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An API to the Pokey search.",
+            "keywords": [
+                "comic",
+                "humor",
+                "penguin",
+                "pokey",
+                "webcomic",
+                "yellow5"
+            ],
+            "time": "2014-01-11 18:25:29"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": [
+
+    ],
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
