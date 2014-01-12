@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rfreebern/pokey-api.git",
-                "reference": "607d81219bb8d3fae4871812a72a8f324ca11d54"
+                "reference": "57e9631770df853a1a453d5b60492091199cb011"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rfreebern/pokey-api/zipball/607d81219bb8d3fae4871812a72a8f324ca11d54",
-                "reference": "607d81219bb8d3fae4871812a72a8f324ca11d54",
+                "url": "https://api.github.com/repos/rfreebern/pokey-api/zipball/57e9631770df853a1a453d5b60492091199cb011",
+                "reference": "57e9631770df853a1a453d5b60492091199cb011",
                 "shasum": ""
             },
             "type": "library",
@@ -46,7 +46,7 @@
                 "webcomic",
                 "yellow5"
             ],
-            "time": "2014-01-11 18:25:29"
+            "time": "2014-01-12 22:07:06"
         }
     ],
     "packages-dev": [
