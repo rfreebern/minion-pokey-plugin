@@ -1,0 +1,15 @@
+{
+    "name": "rfreebern/minion-pokey-plugin",
+    "description": "Pokey for minions.",
+    "require": {
+        "rfreebern/pokey-api": "*"
+    },
+    "license": "CC0",
+    "authors": [
+        {
+            "name": "Ryan Freebern",
+            "email": "ryan@freebern.org"
+        }
+    ],
+    "minimum-stability": "dev"
+}
