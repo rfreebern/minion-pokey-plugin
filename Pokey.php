@@ -22,8 +22,30 @@ return $Pokey
         if (count($arguments)) {
             $results = \Pokey\API::search(implode(' ', $arguments));
             if (count($results)) {
-                $result = array_shift($results);
-                $Pokey->Minion->msg($result['text'], $target);
+                $index = mt_rand(0, count($results) - 1);
+                if ($Pokey->conf('Result') == 'First') {
+                    $index = 0;
+                }
+                $result = $results[$index];
+                $message = [];
+                if ($Pokey->conf('Title')) {
+                    $message[] = $result['title'];
+                }
+                if ($Pokey->conf('Link')) {
+                    $message[] = $result['link'];
+                }
+                if ($Pokey->conf('Image')) {
+                    $message[] = $result['image'];
+                }
+                if ($Pokey->conf('Text')) {
+                    $message[] = $result['text'];
+                }
+                $message = implode("\n", $message);
+                if (strlen($message)) {
+                    $Pokey->Minion->msg($message, $target);
+                } else {
+                    $Pokey->Minion->msg($result['text'], $target);
+                }
             } else {
                 $Pokey->Minion->msg('Nothing found.', $target);
             }
